@@ -2,8 +2,8 @@ require 'formula'
 
 class Wali < Formula
   homepage 'https://zzswang.github.io'
-  url 'https://github.com/zzswang/wali/releases/download/v0.1.0/wali'
-
+  version 'v0.1.0'
+  url "https://github.com/zzswang/wali/releases/download/#{version}/wali"
   def install
     bin.install 'wali'
   end
