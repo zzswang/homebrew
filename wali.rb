@@ -1,6 +1,6 @@
 require 'formula'
 
-class Duotai < Formula
+class Wali < Formula
   homepage 'https://zzswang.github.io'
   url 'https://github.com/zzswang/wali/releases/download/v0.1.0/wali'
 
